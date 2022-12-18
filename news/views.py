@@ -6,4 +6,4 @@ from .models import News
 
 class HomePageView(ListView):
     model = News
-    template_name = 'home.html'
+    template_name = 'home.html' 
